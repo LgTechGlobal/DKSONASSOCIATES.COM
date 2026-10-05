@@ -97,7 +97,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             </div>
             <div className="brand-text-block">
               <div className="brand-name">DKSONASSOCIATE</div>
-              <div className="brand-tagline">STRUCTURAL STEEL DETAILING AND ENGINEERING</div>
+              <div className="brand-tagline">STRUCTURAL STEEL DETAILING AND ENGINEERING SERVICES</div>
             </div>
           </a>
 

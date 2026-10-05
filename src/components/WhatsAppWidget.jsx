@@ -54,7 +54,7 @@ export default function WhatsAppWidget() {
           <div className="whatsapp-chat-body">
             <div className="whatsapp-bubble">
               Hello! 👋 Welcome to <strong>Dkson Associates</strong> (Dksonassociates). 
-              Looking for fast-track shop drawings, PE connection stamping, or Tekla 3D BIM modeling?
+              Looking for fast-track shop drawings, PE connection stamping?
             </div>
             <div style={{ fontSize: '0.74rem', color: '#94a3b8', margin: '0.2rem 0' }}>
               Select a quick prompt or message us directly:

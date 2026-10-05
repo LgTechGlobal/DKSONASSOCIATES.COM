@@ -106,7 +106,7 @@ export default function Hero({ onOpenQuoteModal }) {
           <div className="hero-text-block">
             <div className="hero-badge fade-up-badge">
               <span className="pulse-dot"></span>
-              <span>Next-Gen Structural Steel Detailing And Engineeering</span>
+              <span>Next-Gen Structural Steel Detailing And Engineeering services</span>
             </div>
 
             <h1 className="hero-title fade-up-title">

@@ -66,7 +66,7 @@ const steelServices = [
       'Detailed Summary Spreadsheets in Excel & Kiss Format'
     ],
     standards: 'AISC Estimating Guidelines, NISD Standards',
-    software: 'FabTrol, STRUMIS, Bluebeam Revu'
+    software: 'TEKLA'
   },
   {
     id: 'misc-metals',
@@ -86,7 +86,7 @@ const steelServices = [
       'Canopy Steel, Overhead Frames & Dunnage Detailing'
     ],
     standards: 'OSHA 1910.28, NAAMM AMP 510, ADA Standards',
-    software: 'Steel Storage Tank'
+    software: 'TEKLA'
   },
   {
     id: 'joist-deck-detailing',
@@ -105,7 +105,7 @@ const steelServices = [
       'Bill of Materials (BOM)'
     ],
     standards: 'SJI & SDI Specifications',
-    software: 'Tekla Structures, SDS2'
+    software: 'AUTO CAD'
   }
 ];
 

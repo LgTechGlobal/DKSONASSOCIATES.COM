@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Calendar, Award, Building, Compass, CheckCircle } from 'lucide-react';
+import { Calendar, Building, Compass, CheckCircle } from 'lucide-react';
 
 export default function StatsSection() {
   const sectionRef = useRef(null);
@@ -7,7 +7,6 @@ export default function StatsSection() {
   const [counts, setCounts] = useState({
     years: 0,
     projects: 0,
-    states: 0,
     tons: 0,
     approval: 0
   });
@@ -28,8 +27,7 @@ export default function StatsSection() {
 
             setCounts({
               years: Math.floor(ease * 3),
-              projects: Math.floor(ease * 1100),
-              states: Math.floor(ease * 28),
+              projects: Math.floor(ease * 100),
               tons: Math.floor(ease * 100),
               approval: +(ease * 99.8).toFixed(1)
             });
@@ -93,12 +91,6 @@ export default function StatsSection() {
       value: `${counts.projects.toLocaleString()}+`,
       label: 'Commercial & Industrial Projects',
       sub: 'Across India'
-    },
-    {
-      icon: <Award size={22} />,
-      value: `${counts.states}`,
-      label: 'Across India PE Stamped',
-      sub: 'Licensed Engineers'
     },
     {
       icon: <Compass size={22} />,

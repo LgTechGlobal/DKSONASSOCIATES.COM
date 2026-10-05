@@ -33,7 +33,7 @@ export default function Footer() {
               <div>
                 <div style={{ fontWeight: 800, fontSize: '1.25rem', color: '#fff' }}>DKSON ASSOCIATES</div>
                 <div style={{ fontSize: '0.65rem', color: 'var(--color-cyan-bright)', letterSpacing: '0.12em', textTransform: 'uppercase' }}>
-                  STRUCTURAL STEEL DETAILING AND ENGINEERING
+                  STRUCTURAL STEEL DETAILING AND ENGINEERING SERVICES
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Footer() {
             <div style={{ display: 'flex', gap: '0.75rem' }}>
               <span className="badge-tag">AISC</span>
               <span className="badge-tag">NISD</span>
-              <span className="badge-tag">Across India</span>
+              <span className="badge-tag">CISC</span>
             </div>
           </div>
 
