@@ -31,7 +31,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <div style={{ fontWeight: 800, fontSize: '1.25rem', color: '#fff' }}>DKSON ASSOCIATES</div>
+                <div style={{ fontWeight: 800, fontSize: '1.25rem', color: '#fff' }}>DKSONASSOCIATES</div>
                 <div style={{ fontSize: '0.65rem', color: 'var(--color-cyan-bright)', letterSpacing: '0.12em', textTransform: 'uppercase' }}>
                   STRUCTURAL STEEL DETAILING AND ENGINEERING SERVICES
                 </div>
