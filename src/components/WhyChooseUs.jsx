@@ -117,7 +117,7 @@ export default function WhyChooseUs({ onOpenQuoteModal }) {
             <span>The Dkson Advantage</span>
           </div>
           <h2 className="section-title">
-            Why Leading Steel Fabricators <span className="text-gradient">Choose Dksonassociates</span>
+            Why Leading Steel Fabricators <span className="text-gradient">Choose DKSONASSOCIATES</span>
           </h2>
           <p className="section-subtitle">
             We solve the structural steel industry’s biggest bottlenecks: drafting backlogs, expensive PE connection stamping, and costly field fit-up errors.
