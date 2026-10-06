@@ -152,7 +152,7 @@ export default function AboutUsPage() {
               <span>WHO WE ARE</span>
             </div>
             <h1 data-reveal style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', fontWeight: 800, color: '#fff', lineHeight: 1.1, marginBottom: '1.5rem' }}>
-              ABOUT <span className="text-gradient">DKSON ASSOCIATES</span>
+              ABOUT <span className="text-gradient">DKSONASSOCIATES</span>
             </h1>
             <p data-reveal style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '700px', margin: '0 auto 2.5rem', lineHeight: 1.8 }}>
               A world-class structural steel engineering and detailing partner — committed to delivering unmatched quality, pushing the envelope of innovation, and adapting to every challenge.
@@ -332,7 +332,7 @@ export default function AboutUsPage() {
         }}>
           <div className="container">
             <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', fontWeight: 800, color: '#fff', marginBottom: '1rem' }}>
-              Ready to Work With <span className="text-gradient">DKSON ASSOCIATES?</span>
+              Ready to Work With <span className="text-gradient">DKSONASSOCIATES?</span>
             </h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', marginBottom: '2rem' }}>
               Let's discuss your next structural steel or civil project.
