@@ -5,14 +5,14 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 // Use Vite's asset import syntax for files in src/assets
-import img1 from '../assets/Project Portfolio/1.png';
-import img2 from '../assets/Project Portfolio/2.png';
-import img3 from '../assets/Project Portfolio/3.png';
-import img4 from '../assets/Project Portfolio/4.png';
-import img5 from '../assets/Project Portfolio/5.png';
-import img6 from '../assets/Project Portfolio/6.png';
-import img7 from '../assets/Project Portfolio/7.png';
-import img8 from '../assets/Project Portfolio/8.jpg';
+import img1 from '../assets/Project Portfolio/1-opt.jpg';
+import img2 from '../assets/Project Portfolio/2-opt.jpg';
+import img3 from '../assets/Project Portfolio/3-opt.jpg';
+import img4 from '../assets/Project Portfolio/4-opt.jpg';
+import img5 from '../assets/Project Portfolio/5-opt.jpg';
+import img6 from '../assets/Project Portfolio/6-opt.jpg';
+import img7 from '../assets/Project Portfolio/7-opt.jpg';
+import img8 from '../assets/Project Portfolio/8-opt.jpg';
 
 const projectList = [
   { id: 'proj-1', title: 'Industrial Plant Detailing', category: 'Industrial', image: img1 },
@@ -173,22 +173,21 @@ export default function ProjectsPage() {
 
       {/* Image Preview Modal */}
       {previewImage && (
-        <div className="preview-modal-overlay" onClick={() => setPreviewImage(null)}>
-          <div className="preview-modal-content" onClick={e => e.stopPropagation()}>
-            <div className="preview-modal-header">
-              <h3 className="preview-modal-title">{previewImage.title}</h3>
-              <button className="preview-modal-close" onClick={() => setPreviewImage(null)}>
-                <X size={20} />
-              </button>
-            </div>
-            <div className="preview-modal-body">
-              <img src={previewImage.url} alt={previewImage.title} className="preview-modal-image" />
-            </div>
+        <div className="modal-overlay" onClick={() => setPreviewImage(null)}>
+          <div className="modal-card dkson-img-modal" onClick={e => e.stopPropagation()}>
+            <button className="modal-close-btn" onClick={() => setPreviewImage(null)}>
+              <X size={24} />
+            </button>
+            <h3 style={{ color: '#fff', marginBottom: '1rem', fontSize: '1.25rem', textAlign: 'center' }}>{previewImage.title}</h3>
+            <img src={previewImage.url} alt={previewImage.title} style={{ width: '100%', maxHeight: '70vh', objectFit: 'contain', borderRadius: 'var(--radius-lg)' }} />
           </div>
         </div>
       )}
     </div>
   );
 }
+
+
+
 
 
