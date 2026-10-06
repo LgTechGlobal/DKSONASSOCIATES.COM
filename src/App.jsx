@@ -16,6 +16,7 @@ import WhatsAppWidget from './components/WhatsAppWidget';
 import SteelDetailingPage from './pages/SteelDetailingPage';
 import CivilConstructionPage from './pages/CivilConstructionPage';
 import AboutUsPage from './pages/AboutUsPage';
+import ProjectsPage from './pages/ProjectsPage';
 import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
 import './App.css';
@@ -132,6 +133,7 @@ export default function App() {
       <Route path="/steel-detailing" element={<SteelDetailingPage />} />
       <Route path="/civil-construction" element={<CivilConstructionPage />} />
       <Route path="/about" element={<AboutUsPage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
       {/* Section alias routes — render home page, useEffect above handles scrolling */}
       {['/services', '/why-us', '/contact', '/'].map(path => (
         <Route key={path} path={path} element={
@@ -212,6 +214,8 @@ export default function App() {
     </Routes>
   );
 }
+
+
 
 
 

@@ -127,10 +127,10 @@ export default function SteelDetailingPage() {
         (entries) => {
           entries.forEach(entry => {
             if (entry.isIntersecting) entry.target.classList.add('card-arrived');
-            else entry.target.classList.remove('card-arrived');
+            
           });
         },
-        { threshold: 0.02, rootMargin: '0px 0px -10px 0px' }
+        { threshold: 0.02, rootMargin: '0px 0px 60px 0px' }
       );
       cards.forEach(card => observer.observe(card));
       return () => observer.disconnect();
@@ -328,3 +328,4 @@ export default function SteelDetailingPage() {
     </div>
   );
 }
+
