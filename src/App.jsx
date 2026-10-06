@@ -50,7 +50,6 @@ export default function App() {
     };
   }, []);
 
-  // Reset scroll on route change
   useEffect(() => {
     if (window.lenis) {
       window.lenis.scrollTo(0, { immediate: true });
