@@ -84,13 +84,13 @@ export default function StatsSection() {
       icon: <Calendar size={22} />,
       value: `${counts.years}+`,
       label: 'Years Engineering Excellence',
-      sub: 'Founded in 2022'
+      // sub: 'Founded in 2022'
     },
     {
       icon: <Building size={22} />,
       value: `${counts.projects.toLocaleString()}+`,
       label: 'Commercial & Industrial Projects',
-      sub: 'Across India'
+      // sub: 'Across India'
     },
     {
       icon: <Compass size={22} />,
