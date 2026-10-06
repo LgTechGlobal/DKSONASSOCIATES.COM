@@ -1978,6 +1978,12 @@
     padding: 0.8rem 1.15rem;
   }
 
+  .nav-brand {
+    max-width: calc(100% - 60px);
+  }
+  .brand-text-block {
+    min-width: 0;
+  }
   /* Brand Logo on Mobile */
   .brand-icon-wrap {
     width: 36px;
@@ -1985,10 +1991,14 @@
   }
   .brand-name {
     font-size: 1.12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .brand-tagline {
     font-size: 0.58rem;
     letter-spacing: 0.08em;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /* Hide Desktop Nav Links & CTA button inside header */

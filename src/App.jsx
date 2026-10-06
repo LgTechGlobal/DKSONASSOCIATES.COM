@@ -170,6 +170,11 @@ export default function App() {
               <ServicesSection onSelectServiceForQuote={handleOpenQuoteModal} />
             </div>
 
+            {/* Projects Showcase */}
+            <div className="scroll-reveal">
+              <ProjectsShowcase onOpenQuoteModal={handleOpenQuoteModal} />
+            </div>
+
             {/* Standards We Followed */}
             <div className="scroll-reveal">
               <StandardsSection />

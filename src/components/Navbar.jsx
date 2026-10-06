@@ -169,13 +169,13 @@ export default function Navbar({ onOpenQuoteModal }) {
                 <ArrowRight size={16} />
               </button>
 
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '1.2rem', marginTop: '1rem', fontSize: '0.82rem', color: '#94a3b8' }}>
-                <a href="tel:+919337491479" style={{ color: 'var(--color-cyan-bright)' }}>
-                  📞 +91-9337491479
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '1.2rem', marginTop: '1rem', fontSize: '0.82rem', color: '#94a3b8', alignItems: 'center' }}>
+                <a href="tel:+919337491479" style={{ color: 'var(--color-cyan-bright)', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                  <Phone size={14} /> +91-9337491479
                 </a>
-                <span>•</span>
-                <a href="mailto:sales@dksonassociates.com" style={{ color: 'var(--color-cyan-bright)' }}>
-                  ✉️ Email Desk
+                <span>|</span>
+                <a href="mailto:sales@dksonassociates.com" style={{ color: 'var(--color-cyan-bright)', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                  <Mail size={14} /> Email Desk
                 </a>
               </div>
             </div>
@@ -185,5 +185,6 @@ export default function Navbar({ onOpenQuoteModal }) {
     </>
   );
 }
+
 
 
