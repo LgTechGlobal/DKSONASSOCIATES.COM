@@ -24,7 +24,7 @@ export default function App() {
   const [quoteFormData, setQuoteFormData] = useState(null);
   const location = useLocation();
 
-  // Initialize Lenis Smooth Scrolling
+
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
