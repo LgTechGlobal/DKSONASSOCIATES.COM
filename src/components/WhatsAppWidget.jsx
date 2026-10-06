@@ -37,7 +37,7 @@ export default function WhatsAppWidget() {
                 <span className="whatsapp-status-dot"></span>
               </div>
               <div>
-                <div className="whatsapp-agent-name">Dkson Associates</div>
+                <div className="whatsapp-agent-name">DKSONASSOCIATES</div>
                 <div className="whatsapp-agent-role">Structural Detailing Desk • Online</div>
               </div>
             </div>
