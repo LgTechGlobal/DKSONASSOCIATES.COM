@@ -102,7 +102,7 @@ export default function ProjectsPage() {
                     <div className="service-dual-img-inner">
                       <img
                         src={project.image}
-                        alt={project.title}
+                        // alt={project.title}
                         loading="lazy"
                         decoding="async"
                         className="service-dual-img"
@@ -110,7 +110,7 @@ export default function ProjectsPage() {
                       <div className="service-dual-img-overlay" />
                       <div className="service-dual-top-badge">
                         <span className="pulse-dot" />
-                        <span>{project.category}</span>
+                        {/* <span>{project.category}</span> */}
                       </div>
                       <div className="service-dual-img-footer">
                         <span className="service-dual-tool-tag">Portfolio</span>
@@ -135,20 +135,6 @@ export default function ProjectsPage() {
                       </div>
                     </div>
                     <h3 className="service-dual-title">{project.title}</h3>
-                    <p className="service-dual-tagline">Excellence in Structural Detailing</p>
-                    <p className="service-dual-desc">This project demonstrates our commitment to precision, accuracy, and timely delivery of fabrication-ready models and drawings.</p>
-                    <div className="service-dual-action-row">
-                      <button
-                        className="btn-primary service-dual-quote-btn"
-                        onClick={() => {
-                          navigate('/');
-                          setTimeout(() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }), 300);
-                        }}
-                      >
-                        <span>Discuss Similar Project</span>
-                        <ArrowRight size={15} />
-                      </button>
-                    </div>
                   </div>
                 );
 
