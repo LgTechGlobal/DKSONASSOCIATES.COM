@@ -2494,3 +2494,14 @@ html, body {
     display: none !important;
   }
 }
+
+/* Simple Fade Up Card for Grid Layout */
+.service-sliding-card.card-fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.service-sliding-card.card-fade-up.card-arrived {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -92,17 +92,28 @@ export default function ProjectsPage() {
               </p>
             </div>
 
-            {/* Dual-card Showcase List */}
-            <div className="services-dual-showcase-list" ref={listRef}>
-              {projectList.map((project, index) => {
-                const isEven = index % 2 === 0;
-
-                const renderImageCard = () => (
-                  <div className="service-dual-img-card group">
+            {/* Image Grid Showcase */}
+            <div 
+              className="projects-image-grid" 
+              ref={listRef}
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+                gap: '2rem',
+                marginTop: '2rem'
+              }}
+            >
+              {projectList.map((project, index) => (
+                <div 
+                  key={project.id} 
+                  data-service-card="true" 
+                  className="service-sliding-card card-fade-up"
+                  style={{ transitionDelay: `${(index % 3) * 0.1}s` }}
+                >
+                  <div className="service-dual-img-card group" style={{ minHeight: '320px', height: '100%' }}>
                     <div className="service-dual-img-inner">
                       <img
                         src={project.image}
-                        // alt={project.title}
                         loading="lazy"
                         decoding="async"
                         className="service-dual-img"
@@ -119,31 +130,8 @@ export default function ProjectsPage() {
                       </div>
                     </div>
                   </div>
-                );
-
-                const renderDetailCard = () => (
-                  <div className="service-dual-detail-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                    <div className="service-dual-detail-top">
-                      <div className="service-dual-icon-wrap"><ImageIcon size={26} /></div>
-                      <div className="service-dual-code-pill">
-                        <span className="service-dual-main-code">PROJECT {(index + 1).toString().padStart(2, '0')}</span>
-                      </div>
-                    </div>
-                    <h3 className="service-dual-title">{project.title}</h3>
-                  </div>
-                );
-
-                                return (
-                  <div key={project.id} data-service-row="true" data-service-idx={index} className="service-paired-row">
-                    <div data-service-card="true" data-card-index={index * 2} className="service-sliding-card card-desktop-left card-comes-from-left mobile-comes-from-left">
-                      {isEven ? renderDetailCard() : renderImageCard()}
-                    </div>
-                    <div data-service-card="true" data-card-index={index * 2 + 1} className="service-sliding-card card-desktop-right card-comes-from-right mobile-comes-from-right">
-                      {isEven ? renderImageCard() : renderDetailCard()}
-                    </div>
-                  </div>
-                );
-              })}
+                </div>
+              ))}
             </div>
 
           </div>
