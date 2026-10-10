@@ -171,8 +171,8 @@ export default function App() {
               <ServicesSection onSelectServiceForQuote={handleOpenQuoteModal} />
             </div>
 
-            {/* Projects Showcase */}
-            <div className="scroll-reveal">
+            {/* Projects Showcase — hidden on mobile, visible on desktop */}
+            <div className="scroll-reveal projects-section-desktop-only">
               <ProjectsShowcase onOpenQuoteModal={handleOpenQuoteModal} />
             </div>
 

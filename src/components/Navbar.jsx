@@ -154,6 +154,15 @@ export default function Navbar({ onOpenQuoteModal }) {
                   <ArrowRight size={14} style={{ opacity: 0.6 }} />
                 </a>
               ))}
+              {/* Our Projects — mobile only */}
+              <a
+                href="/projects"
+                className="mobile-drawer-link"
+                onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); navigate('/projects'); }}
+              >
+                <span>Our Projects</span>
+                <ArrowRight size={14} style={{ opacity: 0.6 }} />
+              </a>
             </div>
 
             <div className="mobile-drawer-footer">
@@ -185,6 +194,7 @@ export default function Navbar({ onOpenQuoteModal }) {
     </>
   );
 }
+
 
 
 

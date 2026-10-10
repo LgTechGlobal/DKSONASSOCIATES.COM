@@ -1,4 +1,4 @@
-/* App.css - Comprehensive Styles, Mobile Optimizations & High-Tech Animations */
+﻿/* App.css - Comprehensive Styles, Mobile Optimizations & High-Tech Animations */
 
 /* Laser Top Scroll Progress Bar */
 .scroll-progress-bar {
@@ -2486,3 +2486,11 @@ html, body {
 
 
 
+
+
+/* Projects section — visible on desktop only */
+@media (max-width: 768px) {
+  .projects-section-desktop-only {
+    display: none !important;
+  }
+}
