@@ -108,12 +108,7 @@ export default function ProjectsPage() {
                         className="service-dual-img"
                       />
                       <div className="service-dual-img-overlay" />
-                      <div className="service-dual-top-badge">
-                        <span className="pulse-dot" />
-                        {/* <span>{project.category}</span> */}
-                      </div>
-                      <div className="service-dual-img-footer">
-                        <span className="service-dual-tool-tag">Portfolio</span>
+                      <div className="service-dual-img-footer" style={{ justifyContent: 'flex-end' }}>
                         <button
                           className="service-dual-expand-btn"
                           title="Inspect full visual"
