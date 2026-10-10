@@ -36,6 +36,7 @@ export default function Navbar({ onOpenQuoteModal }) {
 
   const navLinks = [
     { label: 'Services',  href: '/services' },
+    { label: 'Projects',  href: '/projects' },
     { label: 'Why Dkson', href: '/why-us' },
     { label: 'About Us',  href: '/about' },
     { label: 'Contact',   href: '/contact' },
