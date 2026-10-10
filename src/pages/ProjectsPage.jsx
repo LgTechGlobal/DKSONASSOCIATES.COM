@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Building2, Check, ArrowRight, Maximize2, ChevronLeft, Image as ImageIcon, X } from 'lucide-react';
+import { Maximize2, ChevronLeft, Image as ImageIcon, X } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
