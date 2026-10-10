@@ -7,7 +7,6 @@ import StatsSection from './components/StatsSection';
 import ServicesSection from './components/ServicesSection';
 import InteractiveModelViewer from './components/InteractiveModelViewer';
 import WhyChooseUs from './components/WhyChooseUs';
-import ProjectsShowcase from './components/ProjectsShowcase';
 import CostEstimator from './components/CostEstimator';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
@@ -133,7 +132,7 @@ export default function App() {
       <Route path="/civil-construction" element={<CivilConstructionPage />} />
       <Route path="/about" element={<AboutUsPage />} />
       <Route path="/projects" element={<ProjectsPage />} />
-      {/* Section alias routes — render home page, useEffect above handles scrolling */}
+      {/* Section alias routes â€” render home page, useEffect above handles scrolling */}
       {['/services', '/why-us', '/contact', '/'].map(path => (
         <Route key={path} path={path} element={
         <div className="app-root">
@@ -148,21 +147,21 @@ export default function App() {
             {/* Dynamic Infinite Marquee Engineering Ticker Strip */}
             <div className="marquee-strip">
               <div className="marquee-track">
-                <span className="marquee-item">⚡ AISC 360-16 COMPLIANT</span>
-                <span className="marquee-item">📐 TEKLA STRUCTURES</span>
-                <span className="marquee-item">🏆 PE STAMPED ACROSS INDIA</span>
-                <span className="marquee-item">🎯 99.8% FIRST-PASS APPROVAL</span>
-                <span className="marquee-item">⚙️ PEDDINGHAUS DSTV & CNC EXPORT</span>
-                <span className="marquee-item">☁️ TRIMBLE CONNECT CLOUD SYNC</span>
-                <span className="marquee-item">🌙 24/7 OVERNIGHT RFI RESPONSE</span>
+                <span className="marquee-item">âš¡ AISC 360-16 COMPLIANT</span>
+                <span className="marquee-item">ðŸ“ TEKLA STRUCTURES</span>
+                <span className="marquee-item">ðŸ† PE STAMPED ACROSS INDIA</span>
+                <span className="marquee-item">ðŸŽ¯ 99.8% FIRST-PASS APPROVAL</span>
+                <span className="marquee-item">âš™ï¸ PEDDINGHAUS DSTV & CNC EXPORT</span>
+                <span className="marquee-item">â˜ï¸ TRIMBLE CONNECT CLOUD SYNC</span>
+                <span className="marquee-item">ðŸŒ™ 24/7 OVERNIGHT RFI RESPONSE</span>
                 {/* Duplicate for seamless infinite loop */}
-                <span className="marquee-item">⚡ AISC 360-16 COMPLIANT</span>
-                <span className="marquee-item">📐 TEKLA STRUCTURES</span>
-                <span className="marquee-item">🏆 PE STAMPED ACROSS INDIA</span>
-                <span className="marquee-item">🎯 99.8% FIRST-PASS APPROVAL</span>
-                <span className="marquee-item">⚙️ PEDDINGHAUS DSTV & CNC EXPORT</span>
-                <span className="marquee-item">☁️ TRIMBLE CONNECT CLOUD SYNC</span>
-                <span className="marquee-item">🌙 24/7 OVERNIGHT RFI RESPONSE</span>
+                <span className="marquee-item">âš¡ AISC 360-16 COMPLIANT</span>
+                <span className="marquee-item">ðŸ“ TEKLA STRUCTURES</span>
+                <span className="marquee-item">ðŸ† PE STAMPED ACROSS INDIA</span>
+                <span className="marquee-item">ðŸŽ¯ 99.8% FIRST-PASS APPROVAL</span>
+                <span className="marquee-item">âš™ï¸ PEDDINGHAUS DSTV & CNC EXPORT</span>
+                <span className="marquee-item">â˜ï¸ TRIMBLE CONNECT CLOUD SYNC</span>
+                <span className="marquee-item">ðŸŒ™ 24/7 OVERNIGHT RFI RESPONSE</span>
               </div>
             </div>
 
@@ -171,10 +170,7 @@ export default function App() {
               <ServicesSection onSelectServiceForQuote={handleOpenQuoteModal} />
             </div>
 
-            {/* Projects Showcase — hidden on mobile, visible on desktop */}
-            <div className="scroll-reveal projects-section-desktop-only">
-              <ProjectsShowcase onOpenQuoteModal={handleOpenQuoteModal} />
-            </div>
+
 
             {/* Standards We Followed */}
             <div className="scroll-reveal">
