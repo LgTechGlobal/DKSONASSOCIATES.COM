@@ -87,7 +87,15 @@ export default function Navbar({ onOpenQuoteModal }) {
         <div className="navbar-container">
           
           {/* Brand Logo with responsive layout */}
-          <a href="#" className="nav-brand">
+          <a 
+            href="/" 
+            className="nav-brand"
+            onClick={(e) => {
+              e.preventDefault();
+              navigate('/');
+              window.scrollTo(0, 0);
+            }}
+          >
             <div className="brand-icon-wrap" style={{ width: '52px', height: '52px', padding: '4px' }}>
               <img
                 src="/logo.png"
