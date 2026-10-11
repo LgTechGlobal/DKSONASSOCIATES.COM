@@ -258,7 +258,7 @@ export default function ProjectsPage() {
                     <div className="service-dual-img-inner">
                       <img
                         src={project.image}
-                        alt={project.title}
+                        // alt={project.title}
                         loading="lazy"
                         decoding="async"
                         className="service-dual-img"
@@ -266,12 +266,12 @@ export default function ProjectsPage() {
                       <div className="service-dual-img-overlay" />
                       <div className="service-dual-img-footer" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
                         <span style={{ fontSize: '0.82rem', color: '#e2e8f0', fontWeight: 500, textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>
-                          {project.title}
+                          {/* {project.title} */}
                         </span>
                         <button
                           className="service-dual-expand-btn"
                           title="Inspect full visual"
-                          onClick={() => setPreviewImage({ url: project.image, title: project.title })}
+                          onClick={() => setPreviewImage({ url: project.image })}
                         >
                           <Maximize2 size={16} />
                         </button>
