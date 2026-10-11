@@ -38,7 +38,7 @@ const civilProjects = [
   { id: 'civil-1', title: 'Site Preparation & Groundwork', category: 'Site Prep', image: 'https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
   { id: 'civil-2', title: 'RCC Superstructure & Framework', category: 'Superstructure', image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
   { id: 'civil-3', title: 'Finishing & Utilities Infrastructure', category: 'Finishing', image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
-  { id: 'civil-4', title: 'Residential Development Complex', category: 'Residential', image: 'https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
+  // { id: 'civil-4', title: 'Residential Development Complex', category: 'Residential', image: 'https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
   { id: 'civil-5', title: 'Commercial Business Infrastructure', category: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' },
   { id: 'civil-6', title: 'Industrial Facility & Quality Execution', category: 'Industrial', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80' }
 ];
