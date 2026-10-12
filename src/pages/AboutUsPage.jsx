@@ -161,7 +161,7 @@ export default function AboutUsPage() {
               <span className="badge-tag" style={{ fontSize: '0.85rem', padding: '0.5rem 1.2rem' }}>AISC Compliant</span>
               <span className="badge-tag" style={{ fontSize: '0.85rem', padding: '0.5rem 1.2rem' }}>NISD Certified</span>
               <span className="badge-tag" style={{ fontSize: '0.85rem', padding: '0.5rem 1.2rem' }}>Tekla Structures</span>
-              <span className="badge-tag" style={{ fontSize: '0.85rem', padding: '0.5rem 1.2rem' }}>Across India & Global</span>
+              <span className="badge-tag" style={{ fontSize: '0.85rem', padding: '0.5rem 1.2rem' }}>CISC</span>
             </div>
             </div>
           </div>
