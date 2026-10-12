@@ -6,11 +6,11 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      q: 'How does Dkson Associates manage communications and RFIs between US clients and global squads?',
-      a: 'We operate a synchronized dual-hub delivery model. Our Overland Park, Kansas project management team coordinates directly with your shop superintendents, engineers, and detailers during US Central time business hours. While North America sleeps, our 24/7 global engineering center processes drawing revisions, generates shop sheets, and drafts RFIs, allowing you to wake up to completed deliverables and overnight turnaround.'
+      q: 'How does Dksonassociates manage communications and RFIs between clients and engineering squads?',
+      a: 'We operate a synchronized delivery model. Our project management team coordinates directly with your superintendents, engineers, and detailers. Our engineering center processes drawing revisions, generates shop sheets, and drafts RFIs, allowing fast and overnight turnaround.'
     },
     {
-      q: 'In which US states can Dkson Associates provide PE stamped connection design packages?',
+      q: 'In which standards can Dksonassociates provide stamped connection design packages?',
       a: 'We have licensed Professional Engineers (PE) and Structural Engineers (SE) registered in 49 of the 50 US States. Our engineers calculate, verify, and seal complete connection calculation books for moment frames, complex bracing, trusses, and base plates strictly compliant with AISC 360, AISC 341, and local state building codes.'
     },
     {

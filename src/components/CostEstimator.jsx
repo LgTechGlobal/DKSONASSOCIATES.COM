@@ -167,7 +167,7 @@ export default function CostEstimator({ onApplyEstimateToForm }) {
                   onClick={() => setScope('full')}
                   style={{ gridColumn: 'span 2' }}
                 >
-                  Complete Turnkey: Detailing + PE Stamping + CNC + BIM
+                  Complete Turnkey: Detailing + PE Stamping + CNC + 3D Modeling
                 </button>
               </div>
             </div>

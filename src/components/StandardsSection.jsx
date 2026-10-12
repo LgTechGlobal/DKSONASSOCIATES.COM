@@ -18,7 +18,7 @@ export default function StandardsSection() {
     { 
       name: 'NISD', 
       desc: 'National Institute of Steel Detailing',
-      details: 'Maintaining the highest accuracy in shop drawings & BIM.'
+      details: 'Maintaining the highest accuracy in shop drawings.'
     },
     { 
       name: 'OSHA', 

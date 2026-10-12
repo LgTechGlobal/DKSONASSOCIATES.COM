@@ -100,7 +100,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             <div className="brand-icon-wrap" style={{ width: '52px', height: '52px', padding: '4px' }}>
               <img
                 src="/logo.png"
-                alt="Dkson Associates Logo"
+                alt="Dksonassociates Logo"
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>

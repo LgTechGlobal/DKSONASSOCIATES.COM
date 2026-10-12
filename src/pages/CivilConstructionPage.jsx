@@ -164,7 +164,7 @@ export default function CivilConstructionPage() {
                     <div className="service-dual-img-inner">
                       <img
                         src={service.image}
-                        alt={`${service.title} - Dkson Associates`}
+                        alt={`${service.title} - Dksonassociates`}
                         loading="lazy"
                         decoding="async"
                         className="service-dual-img"

@@ -17,7 +17,7 @@ export default function WhatsAppWidget() {
   ];
 
   const handleSend = (textToSend) => {
-    const text = textToSend || message || 'Hello Dkson Associates, I would like to inquire about your structural steel detailing and BIM services.';
+    const text = textToSend || message || 'Hello Dksonassociates, I would like to inquire about your structural steel detailing and civil construction services.';
     const encoded = encodeURIComponent(text);
     const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encoded}`;
     window.open(url, '_blank', 'noopener,noreferrer');

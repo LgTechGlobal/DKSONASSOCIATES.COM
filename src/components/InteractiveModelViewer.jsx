@@ -79,14 +79,14 @@ export default function InteractiveModelViewer() {
   const currentModel = models.find(m => m.id === selectedModel);
 
   return (
-    <section id="bim-viewer" ref={sectionRef} className="section model-showcase-section">
+    <section id="3d-viewer" ref={sectionRef} className="section model-showcase-section">
       <div className="container">
         
         {/* Header */}
         <div className="section-title-wrap">
           <div className="section-badge">
             <Box size={14} />
-            <span>Interactive Tekla & BIM 3D Studio</span>
+            <span>Interactive Tekla & 3D Structural Studio</span>
           </div>
           <h2 className="section-title">
             Explore Our <span className="text-gradient">LOD 400 Structural Models</span>

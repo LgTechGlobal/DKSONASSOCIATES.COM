@@ -29,7 +29,7 @@ const values = [
   {
     icon: <RefreshCw size={32} />,
     title: 'Adaptability',
-    desc: 'In a field that is changing quickly, flexibility is essential. Dkson Associates adapts to the most recent developments in technology and approach to always deliver the most efficient solutions.',
+    desc: 'In a field that is changing quickly, flexibility is essential. Dksonassociates adapts to the most recent developments in technology and approach to always deliver the most efficient solutions.',
     color: 'rgba(16,185,129,0.15)',
     border: 'rgba(16,185,129,0.35)',
     iconColor: '#6ee7b7',
@@ -56,7 +56,7 @@ const executionStage = [
   'Fabtrol / EJE Import Files',
   'DXF Files for Plate Work',
   '3D Models or 3D PDF',
-  'Import Files for BIM Model, Rivet Model',
+  'Import Files for 3D Structural Model, Revit Model',
   'AutoCAD Drawings / DWG Files',
   'Animation Support',
   'Field Verification Sketches',

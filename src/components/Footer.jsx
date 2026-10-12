@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="brand-icon-wrap" style={{ width: '52px', height: '52px', padding: '4px' }}>
                 <img
                   src="/logo.png"
-                  alt="Dkson Associates Logo"
+                  alt="Dksonassociates Logo"
                   style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                 />
               </div>
@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
 
             <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-              Dkson Associates is a world-class structural steel engineering and detailing partner providing fabrication-ready shop drawings, PE-stamped connection designs, Tekla Structures across India.
+              Dksonassociates is a world-class structural steel engineering, detailing and civil construction partner providing fabrication-ready shop drawings, connection designs, and comprehensive engineering solutions across India.
             </p>
 
             <div style={{ display: 'flex', gap: '0.75rem' }}>
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="footer-bottom-bar">
           <div>
-            © {new Date().getFullYear()} Dkson Associates. All rights reserved. STRUCTURAL STEEL DETAILING AND ENGINEERING.
+            © {new Date().getFullYear()} Dksonassociates. All rights reserved. STRUCTURAL STEEL DETAILING AND ENGINEERING.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
             <span>Privacy Policy</span>
